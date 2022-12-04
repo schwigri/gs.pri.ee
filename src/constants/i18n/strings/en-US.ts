@@ -3,7 +3,8 @@ const strings: Record<string, string> = {
 	copyright:
 		"Copyright © 2022 Griffen Schwiesow. Licensed under {licenseLink}.",
 	email: "Email",
-	mastodon: "Mastodon",
+	github: "@schwigri on GitHub",
+	mastodon: "@griffen@mastodon.ee on Mastodon",
 	noPostsHeading: "Nothing to see here!",
 	noPostsSubheading: "I haven’t written any posts yet, but stay tuned.",
 	pgp: "PGP",

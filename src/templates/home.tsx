@@ -33,13 +33,20 @@ const HomeTemplate: React.FC<PageProps> = () => {
 							<p>{intl.formatMessage({ id: "bio" })}</p>
 							<ul className={styles.homeSidebarIcons}>
 								<li className={styles.homeSidebarIconsItem}>
-									<a href={"https://github.com/schwigri"}>
+									<a
+										aria-label={intl.formatMessage({ id: "github" })}
+										href={"https://github.com/schwigri"}
+									>
 										<GitHubIcon className={styles.homeSidebarIcon} />
 									</a>
 								</li>
 
 								<li className={styles.homeSidebarIconsItem}>
-									<a href={"https://mastodon.ee/@griffen"} rel={"me"}>
+									<a
+										aria-label={intl.formatMessage({ id: "mastodon" })}
+										href={"https://mastodon.ee/@griffen"}
+										rel={"me"}
+									>
 										<MastodonIcon className={styles.homeSidebarIcon} />
 									</a>
 								</li>
