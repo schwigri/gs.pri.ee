@@ -1,4 +1,4 @@
-import { en_US, et_EE } from "./strings";
+import { en_US, et_EE, ru_RU } from "./strings";
 
 export const config = {
 	defaultLocale: "et-EE",
@@ -19,6 +19,15 @@ export const config = {
 			universalMessages: {
 				localeCode: "EN",
 				localeName: "English",
+			},
+		},
+		{
+			locale: "ru-RU",
+			localMessages: ru_RU,
+			prefix: "ru",
+			universalMessages: {
+				localeCode: "RU",
+				localeName: "Русский",
 			},
 		},
 	],
