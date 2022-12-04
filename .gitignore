@@ -1,0 +1,16 @@
+# Node
+node_modules
+package-lock.json
+
+# Jest
+coverage
+
+# Package
+dist
+
+# Gatsby
+public
+.cache
+
+# Misc
+.DS_Store
